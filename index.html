@@ -262,6 +262,9 @@ body.intro #kepala{opacity:0;visibility:hidden}
 footer{display:flex;flex-wrap:wrap;gap:8px 32px;justify-content:space-between;padding:26px var(--tepi) max(26px,env(safe-area-inset-bottom));color:var(--teks-redup);font-size:.95rem;background:var(--hitam)}
 footer{align-items:center}
 footer img{height:72px;width:auto}
+.kredit-dev{text-align:center;padding:16px var(--tepi) max(16px,env(safe-area-inset-bottom));background:var(--hitam);border-top:1px solid var(--hitam-3);color:var(--teks-redup);font-size:.85rem}
+.kredit-dev a{color:var(--emas);text-decoration:none}
+.kredit-dev a:hover{color:var(--emas-terang);text-decoration:underline}
 
 /* Tombol WA menempel di HP */
 #wa-tempel{position:fixed;z-index:15;left:16px;right:16px;bottom:max(14px,env(safe-area-inset-bottom));display:none;transition:opacity .4s,transform .5s var(--ease),visibility .4s;box-shadow:0 10px 30px rgba(0,0,0,.45)}
@@ -450,6 +453,7 @@ footer img{height:72px;width:auto}
 </main>
 
 <footer><img data-gambar="logo" alt="Juragan Parfum" width="804" height="524"><span>Your Trusted Partner for Premium Quality</span></footer>
+  <div class="kredit-dev">Website dibuat oleh <a href="https://hafshahsupriati.github.io" target="_blank" rel="noopener">Hafshah Supriati, Web Developer</a></div>
 <a id="wa-tempel" class="btn sembunyi" href="https://wa.me/6285259139236" data-wa><svg aria-hidden="true"><use href="#ikon-wa"/></svg>Konsultasi Gratis Bangun Brand Anda</a>
 
 <script>
